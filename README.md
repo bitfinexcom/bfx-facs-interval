@@ -1,4 +1,5 @@
-# bfx-facs-base
+# bfx-facs-interval
+
 
 git clone git@github.com:bitfinexcom/REPO.git REPO
 
