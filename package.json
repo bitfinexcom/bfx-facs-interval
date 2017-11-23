@@ -20,7 +20,7 @@
     "grenache"
   ],
   "author": "Robert Kowalski <robert@bitfinex.com>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "devDependencies": {
     "standard": "^10.0.3"
   },
