@@ -18,10 +18,14 @@ class Intervals extends Base {
   }
 
   add (k, f, w) {
+    if (w > Math.pow(2, 31) - 1) {
+      return false
+    }
     this.mem.set(k, setInterval(() => {
       if (!this.caller.active) return
       f()
     }, w))
+    return true
   }
 
   del (k) {
