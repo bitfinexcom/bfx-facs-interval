@@ -11,9 +11,9 @@
     "bitfinex"
   ],
   "dependencies": {
-    "async": "^2.6.1",
+    "async": "^3.2.1",
     "bfx-facs-base": "git+https://github.com/bitfinexcom/bfx-facs-base.git",
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.21"
   },
   "engine": {
     "node": ">=6.0"
