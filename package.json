@@ -1,6 +1,6 @@
 {
-  "name": "bfx-facs-interval",
-  "version": "0.0.1",
+  "name": "@bitfinex/bfx-facs-interval",
+  "version": "1.0.0",
   "private": false,
   "description": "Bitfinex Interval Facility",
   "author": {
@@ -15,8 +15,8 @@
     "async": "^3.2.1",
     "lodash": "^4.17.21"
   },
-  "engine": {
-    "node": ">=6.0"
+  "engines": {
+    "node": ">=16.0"
   },
   "main": "interval.js",
   "license": "Apache-2.0",
