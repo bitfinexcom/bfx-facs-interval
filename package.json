@@ -1,6 +1,6 @@
 {
   "name": "@bitfinex/bfx-facs-interval",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "Bitfinex Interval Facility",
   "author": {
@@ -11,7 +11,7 @@
     "bitfinex"
   ],
   "dependencies": {
-    "@bitfinex/bfx-facs-base": "git+https://github.com/bitfinexcom/bfx-facs-base.git",
+    "@bitfinex/bfx-facs-base": "^1.1.0",
     "async": "^3.2.1",
     "lodash": "^4.17.21"
   },
