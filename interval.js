@@ -37,7 +37,9 @@ class Intervals extends Base {
     async.series([
       next => { super._stop(next) },
       next => {
-        for (const k of Array.from(this.mem.keys())) this.del(k)
+        for (const k of Array.from(this.mem.keys())) {
+          this.del(k)
+        }
         next()
       }
     ], cb)

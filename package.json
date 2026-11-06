@@ -5,7 +5,7 @@
   "description": "Bitfinex Interval Facility",
   "scripts": {
     "lint": "bfx-lint-js",
-"lint:fix": "bfx-lint-js --fix"
+    "lint:fix": "bfx-lint-js --fix"
   },
   "author": {
     "name": "prdn",
