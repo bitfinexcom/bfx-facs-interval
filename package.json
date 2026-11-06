@@ -4,8 +4,8 @@
   "private": false,
   "description": "Bitfinex Interval Facility",
   "scripts": {
-    "lint": "bfx-lint-js",
-    "lint:fix": "bfx-lint-js --fix"
+    "lint": "bfx-lint-js --jest",
+"lint:fix": "bfx-lint-js --jest --fix"
   },
   "author": {
     "name": "prdn",
