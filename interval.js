@@ -1,6 +1,5 @@
 'use strict'
 
-const _ = require('lodash')
 const async = require('async')
 const Base = require('@bitfinex/bfx-facs-base')
 
@@ -38,7 +37,9 @@ class Intervals extends Base {
     async.series([
       next => { super._stop(next) },
       next => {
-        _.each(Array.from(this.mem.keys()), k => this.del(k))
+        for (const k of Array.from(this.mem.keys())) {
+          this.del(k)
+        }
         next()
       }
     ], cb)
